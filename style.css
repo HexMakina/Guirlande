@@ -1,0 +1,242 @@
+/* Importe les polices de caractères depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito&display=swap');
+
+/* Réinitialisation des marges, rembourrages et modèle de boîte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    background: #060416;
+    color: white;
+    font-family: Nunito, "sans-serif";
+}
+
+/* Styles pour les liens */
+a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: white;
+    font-size: 25px;
+}
+
+/* Styles pour les boutons */
+button {
+    padding: 8px 2rem;
+    font-size: 25px;
+    background-color: #ECBA0D;
+    color:#060416;
+    border-radius: 25px;
+    border: none;
+}
+
+button:hover {
+    background-color: #f3d979;
+}
+
+footer {
+    border-top: 2px solid #ECBA0D;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styles pour l'en-tête */
+.header {
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #ECBA0D;
+    background: #060416;
+    z-index: 999; /* Met l'en-tête au premier plan */
+}
+
+/* Styles pour mon logo */
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+    max-width: 1280px;
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+}
+
+/* Styles pour la barre de navigation principale */
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styles pour le menu */
+.menu {
+    display: flex;
+    gap: 2rem; /* Espacement entre les éléments du menu */
+    align-items: center;
+}
+
+/* Styles pour les éléments "garland" */
+.garland {
+    height:;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Styles pour les ampoules "bulb" */
+.bulb {
+    width: 173px;
+    height: 755px;
+    background-image: url("./bulboff.png"); /* Image d'arrière-plan initiale */
+}
+
+/* Styles spécifiques pour chaque ampoule */
+.bulb1 {
+    margin-top: -400px;
+}
+
+.bulb1:hover {
+    background-image: url("bulbonyellow.png"); /* Image d'arrière-plan lors du survol */
+    filter: drop-shadow(0px 50px 150px rgb(255, 230, 40)); /* Effet d'ombre */
+}
+
+.bulb2 {
+    margin-top: -200px;
+}
+
+.bulb2:hover {
+    background-image: url("Bulbpurple.png"); /* Image d'arrière-plan lors du survol */
+    filter: drop-shadow(0px 50px 150px rgb(174, 85, 191)); /* Effet d'ombre */
+}
+
+.bulb3 {
+    margin-top: -300px;
+}
+
+.bulb3:hover {
+    background-image: url("Bulbongreen.png"); /* Image d'arrière-plan lors du survol */
+    filter: drop-shadow(0px 50px 150px rgb(14, 247, 22)); /* Effet d'ombre */
+}
+
+.bulb4 {
+    margin-top: -400px;
+}
+
+.bulb4:hover {
+    background-image: url("Bulbonorange.png"); /* Image d'arrière-plan lors du survol */
+    filter: drop-shadow(0px 50px 150px rgb(254, 144, 26)); /* Effet d'ombre */
+}
+
+.bulb5 {
+    margin-top: -200px;
+}
+
+.bulb5:hover {
+    background-image: url("Bulbonpink.png"); /* Image d'arrière-plan lors du survol */
+    filter: drop-shadow(0px 50px 150px rgb(255, 55, 151)); /* Effet d'ombre */
+}
+
+.bulb6 {
+    margin-top: -400px;
+}
+
+.bulb6:hover {
+    background-image: url("Bulbonblue.png"); /* Image d'arrière-plan lors du survol */
+    filter: drop-shadow(0px 50px 150px rgb(5, 226, 255)); /* Effet d'ombre */
+}
+
+.onlybulb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-bulb {
+    margin-top: 150px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 80px;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.description {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.form-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+
+.label {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.select {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.option {
+    font-size: 25px;
+}
+
+.textarea {
+    font-size: 25px;
+    height: 100px;
+
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.kiss {
+    color: #ECBA0D;
+}
+
+.discover-button {
+    display: flex;
+    margin: 0 auto;
+   
+}

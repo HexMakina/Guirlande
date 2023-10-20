@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>garland</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- mon header -->
+
+    <header class="header">
+      <nav class="container mainNav">
+        <a href="/index.html">
+          <img src="./LogoLIght.svg" alt="Light logo" class="logo" />
+        </a>
+
+        <div class="menu">
+          <a href="index.html">Garland</a>
+          <a href="onebulb.html">One Lightbulb</a>
+          <!-- mon bouton -->
+          <button onclick="window.location.href = 'buyit.html'">Buy It</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ma section -->
+
+    <section class="container form-section">
+      <!-- titre de mon formulaire -->
+      <h1 class="title">Fill in your information</h1>
+
+      <!-- mon formulaire -->
+
+      <form action="" class="form">
+        <div class="field">
+          <label class="label">First Name</label>
+          <input class="input" />
+        </div>
+
+        <div class="field">
+          <label class="label">Last Name</label>
+          <input class="input" />
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <input class="input" />
+        </div>
+
+        <!-- mes options de couleur -->
+
+        <div class="field">
+          <label class="label">Choose an option :</label>
+          <select name="color" id="" class="select">
+            <option class="option" value="pink">Pink</option>
+            <option class="option" value="yellow">Yellow</option>
+            <option class="option" value="blue">Blue</option>
+            <option class="option" value="green">Green</option>
+            <option class="option" value="orange">Orange</option>
+            <option class="option" value="purple">Purple</option>
+            <option class="option" value="garland">Garland</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label class="label">How much ?</label>
+          <input class="input" type="number" name="" id="" min="1" max="25" />
+        </div>
+
+        <div class="field">
+          <label class="label">Add comment</label>
+          <textarea class="textarea"></textarea>
+        </div>
+
+        <div class="submit">
+          <button class="" type="submit">Order now</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- mon footer -->
+    <footer>
+      <div class="container">
+        <p class="footer-text">
+          &copy; 2023 - Made with love by <span class="kiss">Kiss</span>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
